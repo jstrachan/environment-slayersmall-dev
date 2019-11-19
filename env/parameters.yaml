@@ -1,0 +1,15 @@
+adminUser:
+  password: vault:slayersmall/adminUser:password
+  username: admin
+dashboardAuthID: vault:slayersmall:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:slayersmall:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:slayersmall/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:slayersmall/prow:hmacToken
+segmentWriteKey: vault:slayersmall:segmentWriteKey
